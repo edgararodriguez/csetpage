@@ -49,10 +49,39 @@ table {
 h1,h2{
   font-family: 'Roboto Condensed', sans-serif;
 }
+/* Fonts */
 .mono{
   font-family: 'Roboto Mono', monospace;
 
 }
 .copy{
   font-family: 'Georgia',serif;
+}
+/* Header */
+.siteheader{
+  background-color: #03151c;
+  height: 66px;
+}
+.logo{
+  display: inline-block;
+  float: left;
+}
+.header-nav{
+  display: inline-block;
+  float: right;
+
+}
+.nav-links li{
+  display: inline-block;
+padding: 25px 20px;
+}
+.navlink{
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 14px;
+  color: #14e9b6;
+  text-decoration: none;
+}
+.navlink:hover{
+  text-decoration: underline;
+  color: white;
 }
