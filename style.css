@@ -88,3 +88,21 @@ ul  span{
   text-decoration: underline;
   color: white;
 }
+.hero{background-image: url('images/heropic.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 480px;
+width: 100%;}
+.heroheading, .subheading{
+  font-family: 'Roboto Condensed',sans-serif;
+  color:white;
+  text-align: center;
+}
+.heroheading{
+  font-weight: bold;
+  font-size: 42px;
+}
+.subheading{
+  text-transform: uppercase;
+  font-size: 21px;
+}
