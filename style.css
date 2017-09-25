@@ -75,6 +75,9 @@ h1,h2{
   display: inline-block;
 padding: 25px 20px;
 }
+ul  span{
+  color: #14e9b6
+}
 .navlink{
   font-family: 'Roboto Condensed',sans-serif;
   font-size: 14px;
