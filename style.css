@@ -149,3 +149,27 @@ h1, h2, .content-header {
 .flex-row .copy:first-of-type{
 	margin-left: 0px;
 }
+.thirds{
+	margin-top: 5px;
+}
+.sidebar{
+	background: rgba(20,233,183,1);
+	background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	display: inline-block;
+	width: 30%;
+	padding: 95px 40px 100px 60px;
+}
+.sidebar p.mono {
+	margin: 20px 0 25px;
+}
+.objectives li{
+	list-style-type: initial;
+	margin: 15px 15px 15px 0;
+	font-size: 15px;
+}
+.objectives {
+	margin-left: 15px;
+}
