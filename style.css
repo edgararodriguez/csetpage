@@ -113,7 +113,6 @@ h1, h2, .content-header {
 	flex-direction: column;
 }
 .the-abs .content-header,
-.mono,
 .copy {
 	display: flex;
 }
@@ -152,6 +151,10 @@ h1, h2, .content-header {
 .thirds{
 	margin-top: 5px;
 }
+.sidebar,
+.schedule{
+	vertical-align: top;
+}
 .sidebar{
 	background: rgba(20,233,183,1);
 	background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
@@ -172,4 +175,31 @@ h1, h2, .content-header {
 }
 .objectives {
 	margin-left: 15px;
+}
+/* Schedule */
+.schedule{
+	display: inline-block;
+	width: 50%;
+	padding: 90px 70px 80px;
+}
+.schedule .content-header{
+	margin: 40px 0 15px;
+}
+.small-header{
+	font-size: 21px;
+}
+.schedule-block{
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+.schedule-block .mono{
+	text-decoration: none;
+}
+.schedule-block span{
+	margin: 0 15px;
+}
+.schedule-block .mono:hover{
+	text-decoration: underline;
+	color: #14e9b6;
 }
