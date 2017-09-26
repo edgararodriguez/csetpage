@@ -203,3 +203,17 @@ h1, h2, .content-header {
 	text-decoration: underline;
 	color: #14e9b6;
 }
+/* Current Students */
+.current-students .mono{
+	width: 40%;
+}
+.img-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.img-flex img{
+	display: flex;
+	margin: 5px;
+	width: 220px;
+	height: 220px;
+}
